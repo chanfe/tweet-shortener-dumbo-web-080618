@@ -1,6 +1,6 @@
 # Write your code here.
 
-substitures = {
+dictionary = {
   "hello" : 'hi',
   "to" : '2' ,
   "two" : '2',
