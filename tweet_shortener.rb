@@ -11,3 +11,5 @@ end
 
 def shortened_tweet_truncator
 end
+
+#debug techique binding.pry
