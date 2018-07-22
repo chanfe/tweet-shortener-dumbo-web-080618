@@ -14,7 +14,12 @@ dictionary = {
 }
 
 def word_substituter(tweet)
-  
+  array_temp = tweet.split(" ")
+  for i in 0..array_temp
+    if array_temp[i] in dictionary
+      array_temp[i] = dictionary[i]
+    end
+  end
 end
 
 def bulk_tweet_shortener(array)
