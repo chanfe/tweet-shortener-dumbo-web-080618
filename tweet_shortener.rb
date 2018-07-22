@@ -16,7 +16,7 @@ dictionary = {
 def word_substituter(tweet)
   array_temp = tweet.split(" ")
   for i in 0..array_temp-1
-    if key?(dictionary)array_temp[i]
+    if dictionary.key?()array_temp[i]
       array_temp[i] = dictionary[i]
     end
   end
