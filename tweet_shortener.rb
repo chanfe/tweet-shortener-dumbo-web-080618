@@ -18,6 +18,7 @@ def word_substituter(tweet)
   for i in 0..array_temp-1
     if dictionary.key?(array_temp[i])
       array_temp[i] = dictionary[i]
+      binding.pry
     end
   end
   array_temp.join(" ")
